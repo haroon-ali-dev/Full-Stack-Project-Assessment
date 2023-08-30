@@ -34,4 +34,12 @@ describe('/api/videos', () => {
 
         expect(response.status).toBe(200);
     });
+
+    it('should delete the video', async () => {
+        const response = await request(baseUrl)
+            .delete(`/api/videos/1`)
+            .set('x-auth-token', token);
+
+        expect(response.status).toBe(200);
+    });
 });
