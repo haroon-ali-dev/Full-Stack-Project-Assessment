@@ -24,3 +24,4 @@ async function seed() {
 }
 
 module.exports.seed = seed;
+module.exports.pool = pool;
