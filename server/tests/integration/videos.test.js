@@ -8,7 +8,8 @@ let userId = 1;
 
 describe('/api/videos', () => {
     beforeAll(async () => {
-        token = await util.getToken();
+        const getToken = await util.getToken('haroon@gmail.com', 'password321');
+        token = getToken.body.token;
     });
 
     beforeEach(async () => {
