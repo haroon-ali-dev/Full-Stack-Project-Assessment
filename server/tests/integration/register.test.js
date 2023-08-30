@@ -28,4 +28,12 @@ describe('/api/register', () => {
         expect(response.status).toBe(400);
         expect(response.body).toHaveProperty('message', 'User already registered.');
     });
+
+    it('should save the user', async () => {
+        const response = await request(baseUrl)
+            .post('/api/register')
+            .send({ email: 'haroon2@gmail.com', password: 'password321' });
+
+        expect(response.status).toBe(200);
+    });
 });
