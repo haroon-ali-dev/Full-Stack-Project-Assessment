@@ -8,9 +8,8 @@ Manage your favorite youtube videos in an elegant interface.
 HTML, CSS, JavaScript, React.js, Node.js, PostgreSQL, GCP App Engine, GCP Cloud Build, GCP Cloud Storage, GCP App Engine Admin API, GitHub Actions, AWS RDS
 
 ## Automated Tests
-- Admin Panel
-    - Integration tests with Jest & Supertest.
-    - End-to-End tests with Cypress.
+- Integration tests with Jest & Supertest.
+- End-to-End tests with Cypress.
 
 ## Features
 - Register users and login.
