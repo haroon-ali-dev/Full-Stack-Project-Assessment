@@ -20,12 +20,21 @@ describe('/api/login', () => {
         expect(response.status).toBe(400);
     });
 
-    it('should respond with 400 if user already exists', async () => {
+    it('should respond with 400 if wrong login details', async () => {
         const response = await request(baseUrl)
-            .post('/api/register')
-            .send({ email: 'haroon@gmail.com', password: 'password321' });
+            .post('/api/login')
+            .send({ email: 'haroon@gmail.com', password: 'password3211' });
 
         expect(response.status).toBe(400);
-        expect(response.body).toHaveProperty('message', 'User already registered.');
+        expect(response.body).toHaveProperty('message', 'Invalid email or password.');
+    });
+
+    it('should respond with 200 with token', async () => {
+        const response = await request(baseUrl)
+            .post('/api/login')
+            .send({ email: 'haroon@gmail.com', password: 'password321' });
+
+        expect(response.status).toBe(200);
+        expect(response.body).toHaveProperty('token');
     });
 });
