@@ -27,12 +27,11 @@ describe('/api/videos', () => {
         expect(response.body.videos[0]).toHaveProperty('video_id', 'NQ-2eJvakBo');
     });
 
-    it('should create a video', async () => {
+    it('should increase rating of video', async () => {
         const response = await request(baseUrl)
-            .post(`/api/videos`)
-            .set('x-auth-token', token)
-            .send({ userId, url: 'https://www.youtube.com/watch?v=UEDupMZQ_ao' });
+            .patch(`/api/videos/1/inc-rating`)
+            .set('x-auth-token', token);
 
-        expect(response.body).toHaveProperty('author', 'VanossGaming');
+        expect(response.status).toBe(200);
     });
 });
