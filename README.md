@@ -17,6 +17,13 @@ This application utilizes web scraping techniques to extract and save essential 
 - Increase and decrease ratings.
 - Delete videos.
 
+## :bookmark_tabs: Utilization
+- Fully responsive.
+- Authentication with JWT.
+- Animations using Framer Motion.
+- Node.js server deployed to GCP using GCP App Engine, GCP Cloud Build, GCP Cloud Storage, GCP App Engine Admin API and GitHub Actions.
+- PostgreSQL database deployed to AWS using AWS RDS.
+
 ## Tech Stack
 HTML, CSS, JavaScript, React.js, Node.js, PostgreSQL, GCP App Engine, GCP Cloud Build, GCP Cloud Storage, GCP App Engine Admin API, GitHub Actions, AWS RDS
 
@@ -29,11 +36,7 @@ HTML, CSS, JavaScript, React.js, Node.js, PostgreSQL, GCP App Engine, GCP Cloud 
 
 
 ## Utilization
-- Fully responsive.
-- Authentication with JWT.
-- Animations using Framer Motion.
-- Node.js server deployed to GCP using GCP App Engine, GCP Cloud Build, GCP Cloud Storage, GCP App Engine Admin API and GitHub Actions.
-- PostgreSQL database deployed to AWS using AWS RDS.
+
 
 ## Deployment
 - React.js front end deployed to Netlify.
