@@ -30,10 +30,13 @@ This application utilizes web scraping techniques to extract and save essential 
 ## Tech Stack
 React Hook Form, Yup, Jest, Cypress, GCP App Engine, GCP Cloud Build, GCP Cloud Storage, GCP App Engine Admin API, GitHub Actions, AWS RDS.
 
-## Automated Tests
+## :gear: Automated Tests
 - Unit tests with Jest.
 - Integration tests with Jest & Supertest.
 - End-to-End tests with Cypress.
+
+## Automated Tests
+
 
 ## Features
 
