@@ -27,7 +27,7 @@ This application utilizes web scraping techniques to extract and save essential 
 ## :hammer: Tech Stack
 [![My Skills](https://skillicons.dev/icons?i=html,css,js,react,nodejs,postgres,jest,gcp,aws)](https://skillicons.dev)
 
-## Tech Stack
+## :wrench: Additional Tech
 React Hook Form, Yup, Jest, Cypress, GCP App Engine, GCP Cloud Build, GCP Cloud Storage, GCP App Engine Admin API, GitHub Actions, AWS RDS.
 
 ## :gear: Automated Tests
@@ -35,19 +35,10 @@ React Hook Form, Yup, Jest, Cypress, GCP App Engine, GCP Cloud Build, GCP Cloud 
 - Integration tests with Jest & Supertest.
 - End-to-End tests with Cypress.
 
-## Automated Tests
-
-
-## Features
-
-
-## Utilization
-
-
-## Deployment
+## :earth_americas: Deployment
 - React.js front end deployed to Netlify.
 - Node.js server deployed to GCP.
 - PostgreSQL database deployed to AWS.
 
-## Deployment Links
-- Deployed Front End: https://youtube-scraper-video-manager.netlify.app/
+### :earth_americas: Links
+- [Deployed Application](https://youtube-scraper-video-manager.netlify.app)
