@@ -10,6 +10,13 @@ A YouTube video management business faces the recurring challenge of efficiently
 ## :heavy_check_mark: Solution
 This application utilizes web scraping techniques to extract and save essential YouTube video data. By using this application, the business can ensure accurate and up-to-date information for their clients, streamline their video management workflows, and ultimately provide a more seamless and efficient service.
 
+## :page_facing_up: Features
+- Register and login.
+- Add YouTube videos to a database with various details by web scraping the YouTube servers.
+- View list of videos.
+- Increase and decrease ratings.
+- Delete videos.
+
 ## Tech Stack
 HTML, CSS, JavaScript, React.js, Node.js, PostgreSQL, GCP App Engine, GCP Cloud Build, GCP Cloud Storage, GCP App Engine Admin API, GitHub Actions, AWS RDS
 
@@ -19,11 +26,7 @@ HTML, CSS, JavaScript, React.js, Node.js, PostgreSQL, GCP App Engine, GCP Cloud 
 - End-to-End tests with Cypress.
 
 ## Features
-- Register users and login.
-- Add YouTube videos to a database with title and URL.
-- See videos embedded on website page.
-- Increase and decrease ratings.
-- Delete videos.
+
 
 ## Utilization
 - Fully responsive.
