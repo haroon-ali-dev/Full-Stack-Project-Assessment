@@ -1,5 +1,5 @@
-# YouTube Video Manager
-Manage your favorite youtube videos in an elegant interface.
+# :film_strip: YouTube Scraper Video Manager
+Effortlessly scrape, store and manage YouTube video data for your personal or project needs.
 
 ## Screenshots
 ![App Screenshot](https://res.cloudinary.com/dembzfkgg/image/upload/v1687183878/yvm_screenshot_f8b02443f1.png)
