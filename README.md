@@ -24,8 +24,11 @@ This application utilizes web scraping techniques to extract and save essential 
 - Node.js server deployed to GCP using GCP App Engine, GCP Cloud Build, GCP Cloud Storage, GCP App Engine Admin API and GitHub Actions.
 - PostgreSQL database deployed to AWS using AWS RDS.
 
+## :hammer: Tech Stack
+[![My Skills](https://skillicons.dev/icons?i=html,css,js,react,nodejs,postgres,jest,gcp,aws)](https://skillicons.dev)
+
 ## Tech Stack
-HTML, CSS, JavaScript, React.js, Node.js, PostgreSQL, GCP App Engine, GCP Cloud Build, GCP Cloud Storage, GCP App Engine Admin API, GitHub Actions, AWS RDS
+React Hook Form, Yup, Jest, Cypress, GCP App Engine, GCP Cloud Build, GCP Cloud Storage, GCP App Engine Admin API, GitHub Actions, AWS RDS.
 
 ## Automated Tests
 - Unit tests with Jest.
