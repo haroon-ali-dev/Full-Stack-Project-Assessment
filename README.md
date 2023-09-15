@@ -1,8 +1,8 @@
 # :film_strip: YouTube Scraper Video Manager
 Effortlessly scrape, store and manage YouTube video data for your personal or project needs.
 
-## Screenshots
-![App Screenshot](https://res.cloudinary.com/dembzfkgg/image/upload/v1687183878/yvm_screenshot_f8b02443f1.png)
+## :computer: Demo
+https://github.com/haroon-ali-dev/youtube-scraper-video-manager/assets/87202358/53f718dd-2233-4a41-a117-66eccd83c7b1
 
 ## Tech Stack
 HTML, CSS, JavaScript, React.js, Node.js, PostgreSQL, GCP App Engine, GCP Cloud Build, GCP Cloud Storage, GCP App Engine Admin API, GitHub Actions, AWS RDS
