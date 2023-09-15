@@ -4,6 +4,12 @@ Effortlessly scrape, store and manage YouTube video data for your personal or pr
 ## :computer: Demo
 https://github.com/haroon-ali-dev/youtube-scraper-video-manager/assets/87202358/53f718dd-2233-4a41-a117-66eccd83c7b1
 
+## :x: Problem
+A YouTube video management business faces the recurring challenge of efficiently cataloging and organizing an extensive library of videos for its clients. Manually collecting and updating video information such as titles, descriptions, view counts, and upload dates can be a time-consuming and error-prone task.
+
+## :heavy_check_mark: Solution
+This application utilizes web scraping techniques to extract and save essential YouTube video data. By using this application, the business can ensure accurate and up-to-date information for their clients, streamline their video management workflows, and ultimately provide a more seamless and efficient service.
+
 ## Tech Stack
 HTML, CSS, JavaScript, React.js, Node.js, PostgreSQL, GCP App Engine, GCP Cloud Build, GCP Cloud Storage, GCP App Engine Admin API, GitHub Actions, AWS RDS
 
