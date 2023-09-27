@@ -28,7 +28,7 @@ This application utilizes web scraping techniques to extract and save essential 
 [![My Skills](https://skillicons.dev/icons?i=html,css,js,react,nodejs,postgres,jest,gcp,aws)](https://skillicons.dev)
 
 ## :wrench: Additional Tech
-React Hook Form, Yup, Cheerio, Jest, Cypress, GCP App Engine, GCP Cloud Build, GCP Cloud Storage, GCP App Engine Admin API, GitHub Actions, AWS RDS.
+React Hook Form, Yup, Cheerio, SuperTest, Cypress, GCP App Engine, GCP Cloud Build, GCP Cloud Storage, GCP App Engine Admin API, GitHub Actions, AWS RDS.
 
 ## :gear: Automated Tests
 - Unit tests with Jest.
